@@ -5,12 +5,14 @@ import Footer from '../../Shared/Footer/Footer';
 import AboutMe from '../AboutMe/AboutMe';
 import Projects from '../Projects/Projects';
 import ContactMe from '../ContactMe/ContactMe';
+import Skills from '../Skills/Skills';
 const Home = () => {
     return (
         <div>
             <Header />
             <Banner />
             <AboutMe />
+            <Skills />
             <Projects />
             <ContactMe />
             <Footer />

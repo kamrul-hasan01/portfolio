@@ -1,34 +1,27 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import logo from '../../../Images/logo-user.jpg'
+import { HashLink } from 'react-router-hash-link';
+
 
 const Header = () => {
-    const activeStyle = {
-        fontWeight: "bold",
-        color: "#FF014F"
-    }
+
     return (
-        <Navbar bg="dark" variant="dark" expand="md">
+        <Navbar bg="dark" variant="dark" expand="md" sticky="top">
             <Container>
                 <Navbar.Brand as={NavLink} to="/">
-                    <img
-                        alt=""
-                        src={logo}
-                        width="30"
-                        height="30"
-                        className="d-inline-block align-top"
-                    />{' '}
-                    React Bootstrap
+
+                    Kamrul Hasan
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link as={NavLink} to="/home" activeStyle={activeStyle}>Home</Nav.Link>
-                        <Nav.Link href="#link" >Resume</Nav.Link>
-                        <Nav.Link href="#link">About Me</Nav.Link>
-                        <Nav.Link as={NavLink} to="/projects" activeStyle={activeStyle}>Projects</Nav.Link>
-                        <Nav.Link href="#link">Contact Me</Nav.Link>
+                        <Nav.Link as={NavLink} to="/home" >Home</Nav.Link>
+
+                        <Nav.Link as={HashLink} to="/#aboutMe" >About Me</Nav.Link>
+                        <Nav.Link as={HashLink} to="/#skills" >Skills</Nav.Link>
+                        <Nav.Link as={NavLink} to="/projects">Projects</Nav.Link>
+                        <Nav.Link as={HashLink} to="/#contact">Contact Me</Nav.Link>
 
                     </Nav>
                 </Navbar.Collapse>

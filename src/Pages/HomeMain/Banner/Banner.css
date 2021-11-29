@@ -24,13 +24,25 @@ color: black;
 border:1px solid #FF014F;
 }
 .user-photo{
-    height: 410px;
+    height: 380px;
+
+    border-radius: 50%;
+
 }
 .banner-bg{
-    background-image: linear-gradient(to bottom, #b9b9b9, rgba(255, 224, 224, 0.73)),url('../../../Images/Frame\ 58.jpg');
+    background-image: url('https://image.freepik.com/free-vector/abstract-white-shapes-background_79603-1362.jpg');
+    /* background-image: linear-gradient(to bottom, #b9b9b9, rgba(255, 224, 224, 0.73)),url('../../../Images/Frame\ 58.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   background-position: center;
   height: 550px;
+  color:black;
 }
+@media only screen and (max-width:688px) {
+    .banner-bg{
+     
+    height: 920px;
+  }
+
+  }

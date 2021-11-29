@@ -28,24 +28,16 @@ const Projects = () => {
                                         rel="noopener noreferrer">View</a> </p>
                                 </div>
                             </div>
-                            <p className="fs-5 mt-3 fw-bolder mb-0">Title: ByCycle Habitat</p>
-                            <div className="used-stack-tools">
-                                <span className="fs-5">Used stack: </span>
-                                <Button variant="light">HTML</Button>
-                                <Button variant="light">CSS</Button>
-                                <Button variant="light">REACT</Button>
-                                <Button variant="light">FIREBASE</Button>
-                                <Button variant="light">MONGO DB</Button>
-                                <Button variant="light">NODE JS</Button>
-                            </div>
-                            <div className="d-flex justify-content-between">
-                                <a href="https://github.com/k17h02/Bycyle-Habitat" target="_blank" rel="noopener noreferrer">
-                                    <Button variant="link">Client Side Code</Button>
-                                </a>
-                                <a href="https://github.com/k17h02/Bycylce-Habitat-server" target="_blank" rel="noopener noreferrer">
-                                    <Button variant="link">Server Side Code</Button>
-                                </a>
-                            </div>
+                            <p className="fs-4 mt-3 fw-bolder mb-0">ByCycle Habitat</p>
+                            <p>Full-Stack e-commerce website. Users can buy products from there. user can give a review. Admin can manage orders and products.
+
+                            </p>
+                            <p className="fs-5"> <span className="fw-bold"> Technology Used : </span>
+                                Bootstrap, React js, Node js, Express js,
+                                MongoDB, Firebase.
+
+                            </p>
+
                         </div>
                     </Col>
                     <Col md={4} >
@@ -59,26 +51,17 @@ const Projects = () => {
                                         rel="noopener noreferrer">View</a> </p>
                                 </div>
                             </div>
-                            <p className="fs-5 mt-3 fw-bolder mb-0">Title: Victory Travel</p>
-                            <div className="used-stack-tools">
-                                <span className="fs-5">Used stack: </span>
-                                <Button variant="light">HTML</Button>
-                                <Button variant="light">CSS</Button>
-                                <Button variant="light">REACT</Button>
-                                <Button variant="light">FIREBASE</Button>
-                                <Button variant="light">MONGO DB</Button>
-                                <Button variant="light">NODE JS</Button>
+                            <p className="fs-5 mt-3 fw-bolder mb-0">Victory Travel</p>
+                            <p>Full-Stack travel booking website. Users can buy products from there. user can give a review. Admin can manage orders and products.
 
-                            </div>
-                            <div className="d-flex justify-content-between">
-                                <a href="https://github.com/k17h02/Victory-Travel" target="_blank" rel="noopener noreferrer">
-                                    <Button variant="link">Client Side Code</Button>
-                                </a>
-                                <a href="https://github.com/k17h02/Victory-Travel-server-" target="_blank" rel="noopener noreferrer">
-                                    <Button variant="link">Server Side Code</Button>
-                                </a>
+                            </p>
+                            <p className="fs-5"> <span className="fw-bold"> Technology Used : </span>
+                                Bootstrap, React js, Node js, Express js,
+                                MongoDB, Firebase.
 
-                            </div>
+                            </p>
+
+
                         </div>
                     </Col>
 
@@ -93,22 +76,15 @@ const Projects = () => {
                                         rel="noopener noreferrer">View</a> </p>
                                 </div>
                             </div>
-                            <p className="fs-5 mt-3 fw-bolder mb-0">Title: Denti Care</p>
-                            <div className="used-stack-tools">
-                                <span className="fs-5">Used stack: </span>
-                                <Button variant="light">HTML</Button>
-                                <Button variant="light">CSS</Button>
-                                <Button variant="light">REACT</Button>
-                                <Button variant="light">FIREBASE</Button>
+                            <p className="fs-5 mt-3 fw-bolder mb-0">Denti Care</p>
+                            <p>Font End Dental care website. Users can buy products from there. User can give a review.User can book an appointment.
+                            </p>
+                            <p className="fs-5"> <span className="fw-bold"> Technology Used : </span>
+                                HTML, CSS, Bootstrap, React js,  Firebase.
 
-                            </div>
-                            <div className="d-flex justify-content-center">
-                                <a href="https://github.com/k17h02/Victory-Travel" target="_blank" rel="noopener noreferrer">
-                                    <Button variant="link">Client Side Code</Button>
-                                </a>
+                            </p>
 
 
-                            </div>
                         </div>
                     </Col>
 

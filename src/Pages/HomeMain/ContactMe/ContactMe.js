@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Col, Container, Row, Button, Form, FloatingLabel, Alert } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
+
 const ContactMe = () => {
     const [show, setShow] = useState(false);
     const [review, setReview] = useState({});
@@ -28,36 +29,42 @@ const ContactMe = () => {
 
     }
     return (
-        <div>
-            <Container>
+        <div id="contact" className="mt-4">
+            <Container >
                 <Row>
                     <Col md={12}>
                         <h1><i className="far fa-dot-circle fs-3" style={{ color: "#FF014F" }} ></i> <span>Contact Me</span></h1>
 
                     </Col>
-                    <Col md={4}>
+                    <Col md={4} >
 
-                        <Row >
+                        <Row className="g-0">
 
-                            <Col md={12} className="text-center px-5 py-2 col-shadow">
-                                <i className="fas fa-mobile-alt fs-3"></i>
-                                <p className="mb-0">PHONE</p>
-                                <p style={{ color: "#FF014F" }} className="fs-5">+8801950458002</p>
+                            <Col md={12}>
+                                <div className="text-center px-5 py-2 col-shadow">
+                                    <i className="fas fa-mobile-alt fs-3"></i>
+                                    <p className="mb-0">PHONE</p>
+                                    <p style={{ color: "#FF014F" }} className="fs-5">+8801950458002</p>
+                                </div>
                             </Col>
-                            <Col md={12} className="text-center px-5 py-2 col-shadow">
-                                <i className="far fa-envelope fs-3"></i>
-                                <p className="mb-0">Email</p>
-                                <p style={{ color: "#FF014F" }} className="fs-5">kamrulhasan.kh02@gmail.com</p>
+                            <Col md={12}>
+                                <div className="text-center px-5 py-2 col-shadow">
+                                    <i className="far fa-envelope fs-3"></i>
+                                    <p className="mb-0">Email</p>
+                                    <p style={{ color: "#FF014F" }} className="fs-5">kamrulhasan.kh02@ <br /> gmail.com</p>
+                                </div>
                             </Col>
-                            <Col md={12} className="text-center px-5 py-2 col-shadow">
-                                <i className="fas fa-map-marker-alt fs-3"></i>
-                                <p className="mb-0">PHONE</p>
-                                <p style={{ color: "#FF014F" }} className="fs-5">Uttara, Dhaka</p>
+                            <Col md={12}>
+                                <div className="text-center px-5 py-2 col-shadow">
+                                    <i className="fas fa-map-marker-alt fs-3"></i>
+                                    <p className="mb-0">PHONE</p>
+                                    <p style={{ color: "#FF014F" }} className="fs-5">Uttara, Dhaka</p>
+                                </div>
                             </Col>
 
                         </Row>
                     </Col>
-                    <Col md={8} className="px-5">
+                    <Col md={8} className="px-5 pt-4">
                         <Form onSubmit={handleSubmit}>
                             <Row className="mb-3">
                                 <Form.Group as={Col} md="12" className="mb-3" >
@@ -131,6 +138,7 @@ const ContactMe = () => {
                     </Col>
                 </Row>
             </Container>
+
         </div >
     );
 };
