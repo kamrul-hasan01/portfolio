@@ -1,0 +1,60 @@
+.col-shadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    margin: 20px;
+}
+.photo-frame {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+       position: relative;
+    overflow: hidden;
+
+    
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.photo-details {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: none;
+
+}
+
+
+
+.photo-details p a{
+    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+  font-size: 30px;
+  font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+
+}
+
+.photo-frame:hover .photo {
+    transform: scale(1.2);
+    transition: transform 5s ease-in-out;
+}
+
+.photo-frame:hover .photo-details {
+    display: block;
+    background-color: #ff014d50;
+}
+.used-stack-tools Button{
+margin: 10px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+/* padding: 10px; */
+}
