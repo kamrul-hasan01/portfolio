@@ -15,21 +15,21 @@ const AboutMe = () => {
                             <p className="mb-0">Name :</p>
                             <p className="mb-0 fs-5">Kamrul Hasan</p>
                             <div>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
 
                             </div>
 
@@ -37,41 +37,41 @@ const AboutMe = () => {
                             <p className="mb-0">Email :</p>
                             <p className="mb-0 fs-5">kamrulhasan.kh02 <br /> @gmail.com</p>
                             <div>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
 
                             </div>
                             <p className="mb-0">Phone :</p>
                             <p className="mb-0 fs-5">01950458002</p>
                             <div>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
 
                             </div>
                             <p className="mb-0">Address :</p>
@@ -88,7 +88,7 @@ const AboutMe = () => {
                         <p>Find with me</p>
                         <p className="media-link">
                             <a href="https://github.com/k17h02" target="_blank" rel="noopener noreferrer">  <Image className="media-logo" src={github} alt="py Picture" fluid></Image></a>
-                            <a href="https://www.linkedin.com/in/kamrul-hasan-4885041a0/" target="_blank" rel="noopener noreferrer">  <Image className="media-logo" src={linkedin} alt="py Picture" fluid></Image></a></p>
+                            <a href="https://www.linkedin.com/in/k17h02/" target="_blank" rel="noopener noreferrer">  <Image className="media-logo" src={linkedin} alt="py Picture" fluid></Image></a></p>
 
 
                     </Col>

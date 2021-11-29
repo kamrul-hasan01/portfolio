@@ -1,0 +1,97 @@
+[
+    {
+        "id": "1",
+        "name": "Bicycle Habitat",
+        "liveSite": "https://bicyle-habitat.firebaseapp.com/",
+        "clientSite": "https://github.com/k17h02/Bycyle-Habitat",
+        "serverSite": "https://github.com/k17h02/Bycylce-Habitat-server ",
+        "details": "This is a 'Bycycle Habitat' website. If one does not login to the website, then he can only see the home page and products. If you are an admin, you can make someone else an admin. You can see all the products, blogs, offers through this website. You can talk to the company by filling the contact form if you want.",
+        "tools": " React, Node JS,,Express, MongoDB , Bootstrap 5,React Router, React Hook Form, Axios, Firebase",
+        "images": [
+            " https://i.ibb.co/5jwV20W/b.jpg",
+            "   https://i.ibb.co/gr6RHd6/b3.jpg",
+            "   https://i.ibb.co/HtzXVVT/b43.jpg ",
+            "https://i.ibb.co/Vw8rzkP/b2.jpg",
+            "  https://i.ibb.co/ByfXBg9/b1.jpg"
+        ],
+        "li": [
+            "You can order the bike of your choice through this website.",
+            "You can cancel your order if you wish.",
+            "You can give reviews.",
+            "If you are an admin then you can add product.",
+            "Admin will be able to see everyone's order.",
+            "Admin can cancel any order if he wants.",
+            "Admin can change order status.",
+            "Admin can delete or update any product."
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Victory Travel",
+        "liveSite": "https://victory-travel-k17h02.web.app/",
+        "clientSite": "https://github.com/k17h02/Victory-Travel",
+        "serverSite": "https://github.com/k17h02/Victory-Travel-server-",
+        "details": "This is a travel agency website. All their package news can be found through the web site. You can cancel it again after selecting a package if you want. You cannot change your name, email, location, price when booking. Admin can see how many people have logged in to this website. Admin can change their package status from Manage Booking if they want.",
+        "tools": " React, Node JS,,Express, MongoDB , Bootstrap 5,React Router, React Hook Form, Axios, Firebase",
+        "images": [
+            "https://i.ibb.co/HtQCKXX/Untitled-1.jpg",
+            "https://i.ibb.co/hV3rg6v/Untitled-2.jpg",
+            "https://i.ibb.co/4f3Sjd0/Untitled-3.jpg",
+            "https://i.ibb.co/YDnNScj/b2.png",
+            "https://i.ibb.co/6yXNXmm/b3.png"
+        ],
+        "li": [
+            "You can see all the updated news of 'Victory Travel' through this site.",
+            "You can cancel your order if you wish.",
+            "You can see all the packages of this website.",
+            "With this web site you can go around selecting any package you want.",
+            "You can cancel your selected package.",
+            " If you subscribe to the website via email, you will receive all the news in your email.",
+            "You can add new packages."
+        ]
+    },
+    {
+        "id": "3",
+        "name": "DentiCare",
+        "liveSite": "https://denticare-k17h02.web.app/",
+        "clientSite": "https://github.com/k17h02/Denticare",
+        "serverSite": "#",
+        "details": "This is a DentiCare website.Our Doctors, Service Details, Our Plans pages of this website are privately routed.If you want to see this page, you have to log in.If you try to log in with email and password, if the email, password does not match or if the email, password is not found, it will give the wrong message that Email or password does no match.If you do not give the same password and retype password at the time of registration, he will give the wrong message.",
+        "tools": " React, Node JS,, Express, MongoDB, Bootstrap 5, React Router, React Hook Form, Axios, Firebase",
+        "images": [
+            "https://i.ibb.co/tBXhpfV/erg.jpg",
+            "https://i.ibb.co/RT223nD/Untitled-1.jpg",
+            "https://i.ibb.co/jJfSTVB/Untitled-2.jpg",
+            "https://i.ibb.co/M6VFWTS/Untitled-3.jpg",
+            "https://i.ibb.co/GpYbjDM/b2.png",
+            "https://i.ibb.co/6yXNXmm/b3.png"
+        ],
+        "li": [
+            "You can see all the updated news of dental care through this site.",
+            "You can see all the services of this website.",
+            "You can get information about doctors through this site.",
+            "You can make appointments in this site.",
+            "You can know their plan."
+        ]
+    },
+    {
+        "id": "4",
+        "name": "DentiCare",
+        "liveSite": "https://ema-jhon-k17h02.web.app/",
+        "clientSite": "https://github.com/k17h02/ema-jhon-with-node",
+        "serverSite": "https://github.com/k17h02/ema-jhon-node-server",
+        "details": "This is an ecommerce website.Customers will be able to buy the product of their choice.",
+        "tools": " React, Node JS,, Express, MongoDB, Bootstrap 5, React Router, React Hook Form, Axios, Firebase",
+        "images": [
+            "https://i.ibb.co/DK6BM3W/dfr.png",
+            "https://i.ibb.co/tBTt4Df/erg.jpg",
+            "https://i.ibb.co/ZLP5Tv0/b2.png",
+            "https://i.ibb.co/Np8mnSH/sedf.png"
+        ],
+        "li": [
+            "React pagination has been used here.",
+            "Data is loaded from Gulu mongodb server.",
+            "Users will be able to search in the search box."
+        ]
+    }
+]

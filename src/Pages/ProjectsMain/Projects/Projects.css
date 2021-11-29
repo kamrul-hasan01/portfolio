@@ -1,0 +1,15 @@
+.project-title {
+    font-size: 25px;
+}
+.project-title:hover{
+ color: #FF014F;
+ cursor: pointer;
+}
+.project-link{
+    font-size: 30px;
+    color: black;
+    padding-right: 10px;
+}
+.project-link:hover{
+    color: #FF014F;
+}
