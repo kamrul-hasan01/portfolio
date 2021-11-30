@@ -29,7 +29,7 @@ const Projects = () => {
                     {Projects?.map(project => <Col
                         key={project.id}>
                         <Card>
-                            <Card.Img variant="top" src={project?.images[0]} />
+                            <Card.Img variant="top" src={project?.banner} style={{ height: "200px" }} />
                             <Card.Body>
                                 <Card.Title className="project-title">{project?.name}</Card.Title>
                                 <Card.Text className="mb-1">
