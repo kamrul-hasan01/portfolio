@@ -31,7 +31,7 @@ const Banner = () => {
                         <p className="fs-5 mb-0"> <span><i className="fas fa-envelope custom-font-color pe-2"></i></span> kamrulhasan.kh02@gmail.com</p>
                         <p className="fs-5 mb-0"> <span><i className="fas fa-map-marker custom-font-color pe-2 mb-3"></i></span> Uttara, Dhaka</p>
 
-                        <a href="https://drive.google.com/file/d/18HdLxJ3CpS1xE9-LIhJE5vTYU7xSdUwW/view" target="_blank" rel="noopener noreferrer">  <Button variant="danger" className="resume-download-btn mt-2">Download Resume</Button></a>
+                        <a href="https://drive.google.com/file/d/1GMOHBu17ao30SvvnO0yX55JEreNa-pFA/view" target="_blank" rel="noopener noreferrer">  <Button variant="danger" className="resume-download-btn mt-2">Download Resume</Button></a>
                         <a href="#contact">
                             <Button variant="danger" className="resume-download-btn mt-2">Contact Me</Button>
                         </a>
